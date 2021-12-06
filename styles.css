@@ -39,6 +39,11 @@ h1{
     justify-content: space-between;
 }
 
+.profile-age{
+    color:var(--dark-gray);
+    font-weight: 400;
+    padding-left:5px;
+}
 
 
 /*End of General Styling*/
@@ -60,14 +65,18 @@ h1{
     }
 
     .contact-image-section{
-    
+        position: relative;
+        margin:0 auto;
+        bottom: 55px;
     }
 
     .contact-image{
         border:5px solid white;;
         border-radius: 100%;
-        margin: 0 auto;
     }
+
+
+
 
 }
 
