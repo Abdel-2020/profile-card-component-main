@@ -20,11 +20,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-}
-
-html{
     overflow: hidden;
+    
 }
 
 body {
@@ -58,11 +55,12 @@ h1 {
     color:var(--very-dark-desaturated-blue);
 }
 
+
+
 .background-image-bottom{
-    position: absolute;
-    z-index:-1;
-    top:400px;
-    left: 70px;
+z-index: -1;
+ 
+
 }
 
 .background-image-top{
