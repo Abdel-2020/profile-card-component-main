@@ -55,14 +55,6 @@ h1 {
     color:var(--very-dark-desaturated-blue);
 }
 
-
-
-.background-image-bottom{
-z-index: -1;
- 
-
-}
-
 .background-image-top{
     position: absolute;
     z-index:-2;
@@ -71,10 +63,21 @@ z-index: -1;
 }
 
 
+.background-image-bottom{
+    position: relative;
+    z-index: -1;
+    top:400px;
+    left:100px;
+    }
+
 /*End of General Styling*/
 
 @media only screen and (max-width: 425px) {
     .contact-card {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
         display: flex;
         flex-direction: column;
         width: 345px;
