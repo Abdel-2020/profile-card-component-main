@@ -162,3 +162,72 @@ h1 {
         }
 
 }
+
+@media only screen and (min-width: 1920px) {
+
+    .contact-card {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        display: flex;
+        flex-direction: column;
+        width: 345px;
+        margin: 20vh auto;
+        background-color: white;
+        border-radius: 15px;
+        align-items: center;
+    }
+
+
+    .background-image-top{
+        position: absolute;
+        z-index:-2;
+        bottom:400px;
+        right: 1000px;
+    }
+    
+    
+    .background-image-bottom{
+        position: relative;
+        z-index: -1;
+        top:500px;
+        left:1000px;
+        }
+
+}
+
+
+
+@media only screen and (min-width: 2560px) {
+
+    .contact-card {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        display: flex;
+        flex-direction: column;
+        width: 345px;
+        margin: 20vh auto;
+        background-color: white;
+        border-radius: 15px;
+        align-items: center;
+    }
+
+
+    .background-image-top{
+        position: absolute;
+        z-index:-2;
+        bottom:400px;
+        right: 1500px;
+    }
+    
+    
+    .background-image-bottom{
+        position: relative;
+        z-index: -1;
+        top:500px;
+        left:2000px;
+        }
+}
